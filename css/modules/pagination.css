@@ -1,0 +1,27 @@
+.pagination {
+  margin-top: 10px;
+}
+
+.pagination-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.pag-btn {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: #DA7B93;
+}
+
+.pag-btn:hover {
+  background-color: #bf667c;
+}
+
+.active-page {
+  background-color: #a23954 !important;
+  color: white;
+}

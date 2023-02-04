@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="/js/main.js" type="module" defer></script>
+
+  <!-- <link rel="stylesheet" href="/css/nullifier.css"> -->
+  <link rel="stylesheet" href="/css/main.css">
+
+  <title>Test Task</title>
+</head>
+<body>
+  <div class="content">
+    <div class="table-wrapper">
+      <table class="table">
+        <thead class="thead">
+          <tr>
+            <th>Имя</th>
+            <th>Фамилия</th>
+            <th>Описание</th>
+            <th>Цвет глаз</th>
+          </tr>
+        </thead>
+        <tbody class="table-body"></tbody>
+      </table>
+      <div class="pagination">
+        <div class="pagination-wrapper">
+          
+        </div>
+      </div>
+    </div>
+    <div class="form-wrapper">
+      <div class="setting-wrapper">
+        <div class="setting-btns">
+          <div class="setting-item">
+            <div class="item-name">
+              Имя
+            </div>
+            <button class="setting-btn" data-row-number="0" data-vis="1">Скрыть</button>
+          </div>
+          <div class="setting-item">
+            <div class="item-name">
+              Фамилия
+            </div>
+            <button class="setting-btn" data-row-number="1" data-vis="1">Скрыть</button>
+          </div>
+          <div class="setting-item">
+            <div class="item-name">
+              Описание
+            </div>
+            <button class="setting-btn" data-row-number="2" data-vis="1">Скрыть</button>
+          </div>
+          <div class="setting-item">
+            <div class="item-name">
+              Цвет глаз
+            </div>
+            <button class="setting-btn" data-row-number="3" data-vis="1">Скрыть</button>
+          </div>
+        </div>
+      </div>
+      <form class="form">
+        <div class="form-fields">
+          <div class="form-item">
+            <label class="item-lable">Имя</label>
+            <input class="input" type="text" name="name">
+          </div>
+          <div class="form-item">
+            <label class="item-lable">Фамилия</label>
+            <input class="input" type="text" name="surname">
+          </div>
+          <div class="form-item">
+            <label class="item-lable">Описание</label>
+            <textarea class="input" cols="30" rows="10" name="description"></textarea>
+          </div>
+          <div class="form-item">
+            <label class="item-lable">Цвет глаз</label>
+            <input class="input" type="text" name="eyeColor">
+          </div>
+          <div class="form-item">
+            <label class="item-lable">Номер телефона</label>
+            <input class="input" type="text" name="phone">
+          </div>
+        </div>
+        <div class="button-group">
+          <button class="button decline-btn">Отменить</button>
+          <button class="button confirm-btn">Сохранить</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

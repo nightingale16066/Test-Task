@@ -1,0 +1,43 @@
+.content {
+  width: 100%;
+  background-color: #2F4454;
+  display: flex;
+}
+
+.setting-wrapper {
+  margin-bottom: 20px;
+}
+
+.setting-btns {
+  width: 50%;
+  min-width: 340px;
+  background-color: #DA7B93;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.setting-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.setting-btn {
+  border-radius: 10px;
+  padding: 3px 0;
+}
+
+.setting-btn[data-vis='1']:hover {
+  background-color: rgba(237, 226, 226, 0.83);
+}
+
+[data-vis='0'] {
+  background-color: #a23954;
+}
+
+.setting-btn[data-vis='0']:hover {
+  background-color: #8d354b;
+}
