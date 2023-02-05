@@ -26,10 +26,11 @@ tr:last-child td {
 
 .table-wrapper {
   width: 50%;
-  margin: 10px 0 0 10px;
+  padding: 10px 8px;
 }
 
 .table {
+  width: 100%;
   background-color: #C2CAD0;
 }
 
